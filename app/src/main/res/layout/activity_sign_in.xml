@@ -62,14 +62,14 @@
             android:id="@+id/btnSignIn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign up"
+            android:text="Sign In"
             android:layout_marginTop="10dp"/>
 
         <Button
-            android:id="@+id/btnSignUpGoogle"
+            android:id="@+id/btnSignInGoogle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign up with Google"
+            android:text="Sign in with Google"
             android:layout_marginTop="10dp"/>
 
 
