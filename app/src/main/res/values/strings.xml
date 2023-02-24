@@ -5,4 +5,7 @@
     <string name="enter_email">Email address</string>
     <string name="password">Password</string>
     <string name="have_account">Already have account?</string>
+    <string name="tab_des">Enter How Much Cookies You Want</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
