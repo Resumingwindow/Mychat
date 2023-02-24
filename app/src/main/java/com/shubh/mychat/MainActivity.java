@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.shubh.mychat.Adapters.FragmentAdapter;
 import com.shubh.mychat.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,8 +24,11 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         auth = FirebaseAuth.getInstance();
-    }
 
+
+    binding.viewPager.setAdapter(new FragmentAdapter(getSupportFragmentManager()));
+    binding.tabLayout.setupWithViewPager(binding.viewPager);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
